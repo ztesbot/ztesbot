@@ -658,26 +658,26 @@ end
 
 return {
   patterns = {
-    "^[!/](creategroup) (.*)$",
-    "^[!/](createrealm) (.*)$",
+    "^[!/]([Cc][Rr][Ee][Aa][Tt][Ee][Gg][Rr][Oo][Uu][Pp]) (.*)$",
+    "^[!/]([Cc][Rr][Ee][Aa][Tt][Ee][Rr][Ee][Aa][Ll][Mm]) (.*)$",
     "^[!/](setabout) (%d+) (.*)$",
     "^[!/](setrules) (%d+) (.*)$",
-    "^[!/](setname) (.*)$",
+    "^[!/]([Ss][Ee][Tt][Nn][Aa]Mm][Ee]) (.*)$",
     "^[!/](setgpname) (%d+) (.*)$",
-    "^[!/](setname) (%d+) (.*)$",
-        "^[!/](lock) (%d+) (.*)$",
+    "^[!/]([Ss][Ee][Tt][Nn][Aa]Mm][Ee]) (%d+) (.*)$",
+        "^[!/]([Ll][Oo][Cc][Kk]) (%d+) (.*)$",
     "^[!/](unlock) (%d+) (.*)$",
-    "^[!/](setting) (%d+)$",
+    "^[!/]([Ss][Ee][Tt][Tt][Ii][Nn][Gg]) (%d+)$",
         "^[!/](wholist)$",
-        "^[!/](who)$",
-        "^[!/](type)$",
+        "^[!/]([Ww][Hh][Oo])$",
+        "^[!/]([Tt][Yy][Pp][Ee])$",
     "^[!/](kill) (chat) (%d+)$",
     "^[!/](kill) (realm) (%d+)$",
     "^[!/](addadmin) (.*)$", -- sudoers only
     "^[!/](removeadmin) (.*)$", -- sudoers only
     "^[!/](list) (.*)$",
-        "^[!/](log)$",
-        "^[!/](help)$",
+        "^[!/]([Ll][Oo][Gg])$",
+        "^[!/]([Hh][Ee][Ll][Pp])$",
         "^!!tgservice (.+)$",
   },
   run = run
