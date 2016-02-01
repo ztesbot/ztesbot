@@ -148,8 +148,8 @@ end
 
 return {
   patterns = {
-  "^[!/]([Aa][Ll][Ll])$",
-  "^[!/]([Aa][Ll][Ll]) (%d+)$"
+  "^([Aa][Ll][Ll])$",
+  "^([Aa][Ll][Ll]) (%d+)$"
     "^([Aa][Ll][Ll])$",
   "^([Aa][Ll][Ll]) (%d+)$"
   },
